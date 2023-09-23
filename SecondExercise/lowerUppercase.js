@@ -1,5 +1,5 @@
 function letter(letter){
-    console.log(letter.toUpperCase() ? "upper-case" : "lower-case")
+    console.log(letter.toUpperCase()==letter ? "upper-case" : "lower-case")
 }
 
-letter("f")
+letter("s")
