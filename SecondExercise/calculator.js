@@ -1,12 +1,12 @@
-function calculeyta(numba,opereyta,anadaNumba){
+function calculator(number,operator,anotherNumber){
     let calculate ={
-        '+' : function (x,y){return x+y},
-        '-' : function (x,y){return x-y},
-        '*' : function (x,y){return x*y},
-        '/' : function (x,y){return x/y},
+        '+' :  (x,y)=>x+y,
+        '-' :  (x,y)=>x-y,
+        '*' :  (x,y)=>x*y,
+        '/' :  (x,y)=>x/y,
     }
-    console.log(calculate[opereyta](numba,anadaNumba).toFixed(2))
+    console.log(calculate[operator](number,anotherNumber).toFixed(2))
 
 }
 
-calculeyta(7,'*',11)
+calculeyta(7,'+',11)
